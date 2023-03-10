@@ -1,0 +1,68 @@
+:root {
+  --primaryColor: rgba(181, 181, 181, 0.8);
+  --secondaryColor: rgb(47, 45, 45);
+  --textColor: rgb(69, 3, 3);
+}
+
+.App {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+header {
+height: 20vh;
+  background-color: var(--textColor);
+  color: var(--textColor);
+
+}
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#avatar {
+  /* margin: 0 auto; */
+  width: 80%;
+  height: 40vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.304),
+      rgba(0, 0, 255, 0.304),
+      rgba(255, 0, 0, 0.304)
+    ),
+    url(./components/images/me.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-bottom: 7px solid rgba(100, 8, 8, 0.923);
+}
+#name , #jobTitle{
+  line-height: 0;
+margin-bottom:0px;
+}
+#name{
+ font-size: 1.2rem;
+
+}
+
+#jobTitle{
+  margin-top: 20px;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+
+#jobDescription{
+  font-weight:400;
+  font-size: .7rem;
+text-align: center;
+}
+
+
+.userInformation {
+ position: absolute;
+ top: 70%;
+}
