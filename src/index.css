@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   /* font-family: 'Oleo Script', cursive; */
 font-family: 'Poppins', sans-serif;
-  /* background-color: red; */
+
+  background-color: rgba(216, 215, 215, 0.694);
 }
 
