@@ -15,7 +15,7 @@ const Header = () => {
    {/* < MdDeveloperMode style={{fontSize:"5rem"}}/> */}
 
     </h6>
-    <p id='jobDescription'>Frontend Developer with over 3 years of experience, learning, exploring and  teaching
+    <p id='jobDescription'>Frontend Developer with over 3 years of experience, learning, exploring,teaching and building Applications
 
 
  </p>
