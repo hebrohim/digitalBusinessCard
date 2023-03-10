@@ -15,7 +15,7 @@ A digital business card is a modern and safe way to share vital information abou
 
 ### Screenshot
 
-![Screenshot](./components/images/screeShot.png)
+![Screenshot](./src/components/images/screeShot.png)
 
 
 ### Links
